@@ -8,10 +8,10 @@ Consist of 3 screens:
 3. Details Screen
 
 Notes:
-This application is created using Android Studio. Make sure that this application is installed in your devices.
+This application is created using Android Studio. Make sure that this application is installed in your device.
 
 Objective:
-Develop and Android application that demonstrates proficiency in API integration, user intefacce (UI) design and Android Development best practices.
+Develop an Android application that demonstrates proficiency in API integration, user intefacce (UI) design and Android Development best practices.
 
 Project Overview:
 1. Create an Android App with 3 main screens: Login, Dashboard and Details.
