@@ -152,6 +152,7 @@ How to run the application:
 
 1. Since this code has already have all the dependencies and injections ready, you can run the application by copy and paste the repository link to Android Studio by
    File -> New -> Project From Version Control
+
    A PopUp Window will open where you can paste the repository link under select repository URL from git and open it on local Android Studio Application.
    
-2. Download the file from the repository link as the ZIP file and once downloaded, UNZIP the ZIP file and open the gradle app from the folder.
+3. Alternatively, you can download the file from the repository link as the ZIP file and once downloaded, UNZIP the ZIP file and open the gradle app from the folder on Android Studio
