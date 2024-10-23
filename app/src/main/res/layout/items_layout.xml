@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/scientificName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scientific Name: "
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/commonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Common Name: "
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/careLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Care Level: "
+        android:textSize="15sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/lightRequirement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light Requirement: "
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/detailsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Details"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>
