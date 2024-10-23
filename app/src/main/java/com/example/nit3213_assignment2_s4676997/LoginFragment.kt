@@ -16,11 +16,13 @@ import com.example.nit3213_assignment2_s4676997.data.LoginRequest
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
+//Indicates the starting point of Hilt dependency injection
 @AndroidEntryPoint
 class LoginFragment : Fragment() {
     private var _binding: FragmentLogin2Binding? = null
     private val binding get() = _binding!!
 
+    //Injects the AuthApi dependency
     @Inject
     lateinit var authApi: AuthApi
 
@@ -53,6 +55,7 @@ class LoginFragment : Fragment() {
         authApi.login(loginRequest).enqueue(object : Callback<Void> {
             override fun onResponse(call: Call<Void>, response: Response<Void>) {
                 if (response.isSuccessful) {
+                    Toast.makeText(requireContext(), "Welcome William", Toast.LENGTH_SHORT).show()
                     // Navigate to the dashboard
                     findNavController().navigate(R.id.Login_to_Dashboard)
                 } else {

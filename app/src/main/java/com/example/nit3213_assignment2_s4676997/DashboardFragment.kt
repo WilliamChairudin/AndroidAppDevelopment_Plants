@@ -21,9 +21,11 @@ import androidx.lifecycle.lifecycleScope
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
+//Indicates the starting point of Hilt dependency injection
 @AndroidEntryPoint
 class DashboardFragment : Fragment() {
 
+    //Injects the plantsApiService dependency
     @Inject
     lateinit var plantsApiService: PlantsApiService
 

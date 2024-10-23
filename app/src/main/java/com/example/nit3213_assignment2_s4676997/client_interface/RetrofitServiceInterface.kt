@@ -1,9 +1,9 @@
 package com.example.nit3213_assignment2_s4676997.client_interface
 
 import retrofit2.Call
-import retrofit2.http.GET
-import retrofit2.http.POST
-import retrofit2.http.Body
+import retrofit2.http.GET //GET request
+import retrofit2.http.POST //POST request
+import retrofit2.http.Body //Retrieve information from Body from POST request
 import com.example.nit3213_assignment2_s4676997.data.LoginRequest
 import com.example.nit3213_assignment2_s4676997.data.PlantResponse
 

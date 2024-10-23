@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import dagger.hilt.android.AndroidEntryPoint
 
+
 @AndroidEntryPoint
 class DetailsFragment : Fragment() {
     override fun onCreateView(
